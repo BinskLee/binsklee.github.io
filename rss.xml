@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Binsk's karma Blog</title>
+        <link>https://binsklee.github.io</link>
+        <description>Binsk's karma Blog</description>
+        <lastBuildDate>Sun, 01 Dec 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Improve async code with Promise.all()]]></title>
+            <link>https://binsklee.github.io/introduce</link>
+            <guid>https://binsklee.github.io/introduce</guid>
+            <pubDate>Sun, 01 Dec 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Javascript have very powerful asynchronous feature async/await that help us to write asynchronous code in a synchronous way so that we can easily understand the code.]]></description>
+            <content:encoded><![CDATA[<p>Javascript have very powerful asynchronous feature <code>async/await</code> that help us to write asynchronous code in a synchronous way so that we can easily understand the code.</p>
+<p>However, If you don't pay attention to your code, it can perform inefficiently.</p>]]></content:encoded>
+            <author>juckmyeol0716@gmail.com (Yongjoon Lee)</author>
+            <category>javascript</category>
+            <category>asynchronous</category>
+            <category>promise</category>
+            <category>profiling</category>
+        </item>
+    </channel>
+</rss>

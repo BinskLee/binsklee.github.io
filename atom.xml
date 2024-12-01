@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://binsklee.github.io</id>
+    <title>Binsk's karma Blog</title>
+    <updated>2024-12-01T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://binsklee.github.io"/>
+    <subtitle>Binsk's karma Blog</subtitle>
+    <icon>https://binsklee.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Improve async code with Promise.all()]]></title>
+        <id>https://binsklee.github.io/introduce</id>
+        <link href="https://binsklee.github.io/introduce"/>
+        <updated>2024-12-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Javascript have very powerful asynchronous feature async/await that help us to write asynchronous code in a synchronous way so that we can easily understand the code.]]></summary>
+        <content type="html"><![CDATA[<p>Javascript have very powerful asynchronous feature <code>async/await</code> that help us to write asynchronous code in a synchronous way so that we can easily understand the code.</p>
+<p>However, If you don't pay attention to your code, it can perform inefficiently.</p>]]></content>
+        <author>
+            <name>Yongjoon Lee</name>
+            <email>juckmyeol0716@gmail.com</email>
+            <uri>https://github.com/binsklee</uri>
+        </author>
+        <category label="javascript" term="javascript"/>
+        <category label="asynchronous" term="asynchronous"/>
+        <category label="promise" term="promise"/>
+        <category label="profiling" term="profiling"/>
+    </entry>
+</feed>
