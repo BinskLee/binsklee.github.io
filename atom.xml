@@ -9,8 +9,8 @@
     <icon>https://binsklee.github.io/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Improve async code with Promise.all()]]></title>
-        <id>https://binsklee.github.io/introduce</id>
-        <link href="https://binsklee.github.io/introduce"/>
+        <id>https://binsklee.github.io/improve-async-code-with-event-loop</id>
+        <link href="https://binsklee.github.io/improve-async-code-with-event-loop"/>
         <updated>2024-12-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Javascript have very powerful asynchronous feature async/await that help us to write asynchronous code in a synchronous way so that we can easily understand the code.]]></summary>
         <content type="html"><![CDATA[<p>Javascript have very powerful asynchronous feature <code>async/await</code> that help us to write asynchronous code in a synchronous way so that we can easily understand the code.</p>
