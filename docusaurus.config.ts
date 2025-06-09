@@ -33,6 +33,27 @@ const config: Config = {
     locales: ["en"],
   },
 
+  plugins: [
+    [
+      "@docusaurus/plugin-content-blog",
+      {
+        /**
+         * Required for any multi-instance plugin
+         */
+        id: "second-blog",
+        /**
+         * URL route for the blog section of your site.
+         * *DO NOT* include a trailing slash.
+         */
+        routeBasePath: "trouble-shootings",
+        /**
+         * Path to data on filesystem relative to site dir.
+         */
+        path: "./trouble-shootings",
+      },
+    ],
+  ],
+
   presets: [
     [
       "classic",
@@ -77,6 +98,11 @@ const config: Config = {
       items: [
         { to: "/", label: "Posts", position: "left" },
         {
+          to: "/trouble-shootings",
+          label: "Trouble-shootings",
+          position: "left",
+        },
+        {
           href: "https://github.com/BinskLee",
           label: "GitHub Profile",
           position: "right",
@@ -87,7 +113,7 @@ const config: Config = {
       style: "dark",
       links: [
         {
-          title: "Community",
+          title: "Profile",
           items: [
             {
               label: "LinkedIn",
