@@ -94,7 +94,7 @@ const config: Config = {
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
     navbar: {
-      title: "Binsk's Karma 🙏",
+      title: "Binsk's Karma",
       items: [
         { to: "/", label: "Posts", position: "left" },
         {
