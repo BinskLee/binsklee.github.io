@@ -6,5 +6,6 @@
       "matchPackageNames": ["typescript"],
       "allowedVersions": "5.6.x"
     }
-  ]
+  ],
+  "rangeStrategy": "bump"
 }
