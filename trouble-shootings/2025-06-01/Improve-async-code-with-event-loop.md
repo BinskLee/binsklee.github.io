@@ -40,6 +40,14 @@ tags: [docker, linux]
 
 위의 경우 `auth` 는 `<유저명>:<credential>` 을 base64로 인코딩한 값이다.
 
+macos 혹은 리눅스의 경우 terminal 에서 아래의 명령어를 이용하면 auth 에 해당하는 부분을 쉽게 만들 수 있다.
+
+```sh
+# base64 인코딩 문열열 생성
+❯ echo user:passwd | base64
+dXNlcjpwYXNzd2QK
+```
+
 ## 레퍼런스
 - https://docs.docker.com/reference/cli/docker/login/
 - https://stackoverflow.com/questions/43441454/docker-login-auth-token
