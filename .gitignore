@@ -4,3 +4,4 @@ build
 .docusaurus
 .zed
 .envrc
+.DS_Store
